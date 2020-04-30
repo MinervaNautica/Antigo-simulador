@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\BoatPhysics.cs" />
     <Compile Include="Assets\Scripts\FloatObject.cs" />
     <Compile Include="Assets\Scripts\FollowController.cs" />
+    <Compile Include="Assets\Scripts\FollowShip.cs" />
     <Compile Include="Assets\Scripts\ModifyBoatMesh.cs" />
     <Compile Include="Assets\Scripts\TriangleData.cs" />
     <Compile Include="Assets\Scripts\WaterController.cs" />
