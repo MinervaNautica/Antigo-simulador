@@ -726,6 +726,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   K: 1500
   atrito: 1
+--- !u!114 &1680320860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680320853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0e168f90066764f9c6f24a8c156859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  turnSpeed: 20
 --- !u!1 &1713476822
 GameObject:
   m_ObjectHideFlags: 0
