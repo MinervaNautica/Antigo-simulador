@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 122
+  controlID: 124
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 125
+  controlID: 127
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 125
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -293,7 +293,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 124
+  controlID: 126
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 36
+  controlID: 48
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -419,9 +419,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.019057, y: -0.015841126, z: 1.5075369}
+    m_Target: {x: -0.99190784, y: -0.2683754, z: 3.4496226}
     speed: 2
-    m_Value: {x: 1.019057, y: -0.015841126, z: 1.5075369}
+    m_Value: {x: -0.99190784, y: -0.2683754, z: 3.4496226}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -467,13 +467,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15239635, y: -0.19228363, z: 0.030241985, w: 0.9689621}
+    m_Target: {x: 0.22688654, y: -0.13043465, z: 0.03067804, w: 0.9646596}
     speed: 2
-    m_Value: {x: 0.15239638, y: -0.19228366, z: 0.03024199, w: 0.96896225}
+    m_Value: {x: 0.22688656, y: -0.13043466, z: 0.030678041, w: 0.96465963}
   m_Size:
-    m_Target: 2.2757788
+    m_Target: 4.461159
     speed: 2
-    m_Value: 2.2757788
+    m_Value: 4.461159
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -537,20 +537,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\felip\OneDrive\Documentos\Git\Simulator\Minerva Nautica
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48360000
-    m_LastClickedID: 13896
-    m_ExpandedIDs: 000000001a3600001c3600001e360000203600002236000024360000283600002a3600002c3600002e36000000ca9a3b
+    m_SelectedIDs: c0360000
+    m_LastClickedID: 14016
+    m_ExpandedIDs: 00000000923600009436000096360000983600009a3600009c3600009e360000a0360000a2360000a436000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,7 +578,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: fe090000
     m_LastClickedID: 2558
-    m_ExpandedIDs: 000000001a3600001c3600001e36000020360000223600002436000026360000283600002a3600002c3600002e360000
+    m_ExpandedIDs: 00000000923600009436000096360000983600009a3600009c3600009e360000a0360000a2360000a4360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -663,9 +663,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c4d6ffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: 46d7ffffd0d7ffff18d9ffff98daffff3cf8ffffc0f9ffff52fbffffe6380000b0460000
+      m_SelectedIDs: 2c350000
+      m_LastClickedID: 13612
+      m_ExpandedIDs: 70fbffff2c350000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

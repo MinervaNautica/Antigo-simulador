@@ -1225,15 +1225,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3136316779046761838, guid: d2bb77564d892324988deebfdb765f58,
+    - target: {fileID: 3136316779046761829, guid: d2bb77564d892324988deebfdb765f58,
         type: 3}
-      propertyPath: speed
+      propertyPath: m_AngularDrag
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3136316779046761829, guid: d2bb77564d892324988deebfdb765f58,
+        type: 3}
+      propertyPath: m_Drag
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3136316779046761838, guid: d2bb77564d892324988deebfdb765f58,
         type: 3}
-      propertyPath: turnSpeed
-      value: 25
+      propertyPath: speed
+      value: 2000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bb77564d892324988deebfdb765f58, type: 3}

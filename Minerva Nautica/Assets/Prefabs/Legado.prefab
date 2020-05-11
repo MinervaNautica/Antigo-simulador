@@ -330,9 +330,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3136316778508557798}
   serializedVersion: 2
-  m_Mass: 15
-  m_Drag: 1
-  m_AngularDrag: 2
+  m_Mass: 200
+  m_Drag: 2
+  m_AngularDrag: 12
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3136316778508557798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b11a9bb70c6f1c44a2dd7c358703ddb, type: 3}
   m_Name: 
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3136316778508557798}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f508e35bc79ca24ebf7661d58d7e518, type: 3}
   m_Name: 
@@ -424,8 +424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0e168f90066764f9c6f24a8c156859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 80
-  turnSpeed: 20
+  speed: 100
+  turnSpeed: 25
 --- !u!1 &3136316779013064932
 GameObject:
   m_ObjectHideFlags: 0

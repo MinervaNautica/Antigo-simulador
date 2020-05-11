@@ -26,6 +26,6 @@ public class FollowController : MonoBehaviour
         // We move the vehicle forward
         boatRb.AddRelativeForce(Vector3.left * speed * forwardInput);
         // We turn the vehicle
-        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
+        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime, Space.World);
     }
 }
