@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowController : MonoBehaviour
+public class BoatController : MonoBehaviour
 {
     public float speed;
     public float turnSpeed;

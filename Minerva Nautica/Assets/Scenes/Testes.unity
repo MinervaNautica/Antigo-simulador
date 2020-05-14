@@ -744,6 +744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legado
       objectReference: {fileID: 0}
+    - target: {fileID: 3136316778508557798, guid: d2bb77564d892324988deebfdb765f58,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3136316778508845510, guid: d2bb77564d892324988deebfdb765f58,
         type: 3}
       propertyPath: m_LocalPosition.x
