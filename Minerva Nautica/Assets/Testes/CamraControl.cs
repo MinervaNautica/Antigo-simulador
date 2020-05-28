@@ -8,35 +8,44 @@ public class CamraControl : MonoBehaviour
     public Transform Target;
 
     //values of the FielOfView
-    public int ultraZoom = 20;
-    public int zoom = 30;
-    public int zoomOut = 45;
+    public int Zoom = 20;
+    public int Normal = 30;
+    //public int zoomOut = 45;
 
     //for the camera transition 
     float smooth = 5;
 
-    // Update is called once per frame
+    //variavel de controle do zoom. Inicia como sem zoom.
+    private bool isZoomed = false;
+
+   
     void LateUpdate()
     {
-        transform.LookAt(Target);
+        transform.LookAt(Target);      
 
-        var key = Input.inputString;
+    }
 
-        if (key == "u")
+    // Update is called once per frame
+    void Update()
+    {
+       var key = Input.inputString; //lê a tecla inserida
+
+        if (key == "i")
         {
-            GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, ultraZoom, Time.deltaTime * smooth);
+            isZoomed = !isZoomed; // zoom se torna verdadeiro
+        }
+        if (key == "o")
+        {
+            isZoomed = false;
+        }
+        if (isZoomed)
+        {
+            GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, Zoom, Time.deltaTime * smooth);
         }
         else
         {
-            if (key == "i")
-            {
-                GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, zoom, Time.deltaTime * smooth);
-            }
-            else
-            {
-                GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, zoomOut, Time.deltaTime * smooth);
-            }
-        }
-
+             
+            GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, Normal, Time.deltaTime * smooth);               
+        } 
     }
 }

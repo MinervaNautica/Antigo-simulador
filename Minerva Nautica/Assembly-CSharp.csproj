@@ -74,7 +74,9 @@
     <Compile Include="Assets\Testes\ControllerScript.cs" />
     <Compile Include="Assets\Testes\FloatObjectScript.cs" />
     <Compile Include="Assets\Testes\Floater.cs" />
+    <Compile Include="Assets\Testes\Leme.cs" />
     <Compile Include="Assets\Testes\PhysicsHelper.cs" />
+    <Compile Include="Assets\Testes\Propulsao.cs" />
     <Compile Include="Assets\Testes\WaterBoat.cs" />
     <Compile Include="Assets\Testes\WaterFloat.cs" />
     <Compile Include="Assets\Testes\WaveManager.cs" />
