@@ -9,6 +9,8 @@ public class BoatController : MonoBehaviour
     private float horizontalInput;
     private float forwardInput;
 
+    public TimerController timerControllerScript;
+
     private Rigidbody boatRb;
     // Start is called before the first frame update
     void Start()
@@ -27,5 +29,9 @@ public class BoatController : MonoBehaviour
         boatRb.AddRelativeForce(Vector3.left * speed * forwardInput);
         // We turn the vehicle
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime, Space.World);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
     }
 }

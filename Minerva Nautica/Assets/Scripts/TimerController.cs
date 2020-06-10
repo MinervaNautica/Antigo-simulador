@@ -8,6 +8,8 @@ public class TimerController : MonoBehaviour
 {
     public static TimerController instance;
     public TextMeshProUGUI timerText;
+    public Collider finishLineTrigger;
+    public Color finishedColor;
 
     private TimeSpan timePlaying;
     private bool timerGoing;
@@ -37,6 +39,7 @@ public class TimerController : MonoBehaviour
     public void EndTimer()
     {
         timerGoing = false;
+        timerText.color = finishedColor;
     }
 
     private IEnumerator UpdateTimer()
