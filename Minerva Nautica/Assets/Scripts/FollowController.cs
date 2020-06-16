@@ -20,9 +20,9 @@ public class FollowController : MonoBehaviour
         // This is where we get player input
         horizontalInput =  Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
-        // We move the vehicle forward
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
-        // We turn the vehicle
+        // We move the vehicle forward 
+        transform.Translate(Vector3.right, turnSpeed * horizontalInput * Time.deltaTime);
+        // We turn the vehicle (OK)
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
     }
 }

@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FollowShip.cs" />
     <Compile Include="Assets\Scripts\BoatPhysics.cs" />
     <Compile Include="Assets\Scripts\FloatObject.cs" />
     <Compile Include="Assets\Scripts\FollowController.cs" />
